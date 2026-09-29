@@ -28,23 +28,19 @@
     <div class="hero-backdrop" aria-hidden="true"><video id="hero-video" muted loop playsinline preload="none" poster="assets/images/hero.jpg" data-src="assets/videos/hero.mp4" tabindex="-1"></video></div>
     <div class="hero-shade"></div>
     <div class="hero-content">
-      <p class="eyebrow hero-eyebrow"><span class="status-dot"></span> GENERATE <i>→</i> VERIFY <i>→</i> IMPROVE</p>
       <h1 id="hero-title">EVO<span class="title-dash">-</span>WAM</h1>
       <p class="hero-title-long">Evolving World Action Models<br> through Video-Action Verification</p>
-      <p class="hero-description">A robot’s imagination becomes its next learning experience.</p>
       <div class="resource-buttons">
-        <a class="button primary" href="assets/paper.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg> Read the paper</a>
+        <a class="button primary" href="assets/paper.pdf" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg> Paper</a>
         <a class="button glass" href="#overview"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#play"></use></svg> Watch demo</a>
-        <span class="resource-pending">arXiv <small>Coming soon</small></span>
-        <span class="resource-pending">Code <small>Coming soon</small></span>
       </div>
     </div>
-    <div class="hero-bottom"><a href="#team">Explore the research <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-down"></use></svg></a><span>World action models · 2026</span><button id="motion-toggle" type="button" hidden>Pause background <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#pause"></use></svg></button></div>
+    <div class="hero-bottom"><a href="#team">Explore <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-down"></use></svg></a><button id="motion-toggle" type="button" hidden>Pause background <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#pause"></use></svg></button></div>
   </section>
 
   <main id="main">
     <section class="team section-wrap" id="team" aria-label="Authors and affiliations">
-      <p class="eyebrow">THE PEOPLE BEHIND EVO-WAM</p>
+
       <div class="authors">
         <span>Shiyang Zhou<sup>1,2,‡</sup></span><span>Xionghao Wu<sup>3,‡</sup></span><span>Wenbo Li<sup>4,†</sup></span><span>Shenghe Zheng<sup>5</sup></span><span>Jiyao Zhang<sup>6</sup></span><span>Songsong Yu<sup>7</sup></span><span>Yijun Yang<sup>5,8</sup></span><span>Jianhui Liu<sup>9</sup></span><span>Haoze Sun<sup>10</sup></span><span>Senqiao Yang<sup>11</sup></span><span>Li Jiang<sup>12,2</sup></span><span>Jingyong Su<sup>1</sup></span><span>Haoyang Huang<sup>4</sup></span><span>Zhuotao Tian<sup>1,2,*</sup></span>
       </div>
@@ -54,72 +50,72 @@
     </section>
 
     <section class="results" id="results"><div class="section-wrap">
-      <div class="section-heading"><div><p class="eyebrow">01 / RESULTS</p><h2>Imagination that<br> improves performance.</h2></div><p>Mean task success rate (%)<br> Self-evolution rounds R0–R4</p></div>
+      <div class="section-heading"><div><p class="eyebrow">01 / RESULTS</p><h2>Imagination that<br> improves performance.</h2></div><p>Mean task success (%) · R0–R4</p></div>
       <div class="results-grid">
         <article class="result result-cosmos-sim" aria-labelledby="result-cosmos-sim-title">
           <h3 class="result-context" id="result-cosmos-sim-title">SIMULATION <span>Cosmos3</span></h3>
           <div class="result-values"><span>26.9</span><i>→</i><strong>68.0<small>%</small></strong></div>
           <p class="gain">+41.1 <span>percentage points</span></p>
-          <figure class="result-curve"><img src="assets/images/teaser-cosmos3-simulation.svg" width="460" height="245" loading="lazy" alt="Cosmos3 simulation success rates: R0 26.9%, R1 58.3%, R2 66.6%, R3 63.6%, R4 68.0%. A gain of 41.1 percentage points from R0 to R4."><figcaption>Self-evolution round</figcaption></figure>
-          <p>Seven unseen RoboTwin 2.0 tasks · R0 → R4</p>
+          <figure class="result-curve"><img src="assets/images/teaser-cosmos3-simulation.svg" width="460" height="245" loading="lazy" alt="Cosmos3 simulation success rates: R0 26.9%, R1 58.3%, R2 66.6%, R3 63.6%, R4 68.0%. A gain of 41.1 percentage points from R0 to R4."></figure>
+          <p>7 unseen RoboTwin 2.0 tasks</p>
         </article>
         <article class="result result-dreamzero-sim" aria-labelledby="result-dreamzero-sim-title">
           <h3 class="result-context" id="result-dreamzero-sim-title">SIMULATION <span>DreamZero</span></h3>
           <div class="result-values"><span>28.5</span><i>→</i><strong>46.4<small>%</small></strong></div>
           <p class="gain">+17.9 <span>percentage points</span></p>
-          <figure class="result-curve"><img src="assets/images/teaser-dreamzero-simulation.svg" width="460" height="245" loading="lazy" alt="DreamZero simulation success rates: R0 28.5%, R1 36.5%, R2 42.3%, R3 45.1%, R4 46.4%. A gain of 17.9 percentage points from R0 to R4."><figcaption>Self-evolution round</figcaption></figure>
-          <p>Seven unseen RoboTwin 2.0 tasks · R0 → R4</p>
+          <figure class="result-curve"><img src="assets/images/teaser-dreamzero-simulation.svg" width="460" height="245" loading="lazy" alt="DreamZero simulation success rates: R0 28.5%, R1 36.5%, R2 42.3%, R3 45.1%, R4 46.4%. A gain of 17.9 percentage points from R0 to R4."></figure>
+          <p>7 unseen RoboTwin 2.0 tasks</p>
         </article>
         <article class="result result-cosmos-real" aria-labelledby="result-cosmos-real-title">
           <h3 class="result-context" id="result-cosmos-real-title">REAL WORLD <span>Cosmos3</span></h3>
           <div class="result-values"><span>20.0</span><i>→</i><strong>76.7<small>%</small></strong></div>
           <p class="gain">+56.7 <span>percentage points</span></p>
-          <figure class="result-curve"><img src="assets/images/teaser-cosmos3-real.svg" width="460" height="245" loading="lazy" alt="Cosmos3 real-robot success rates: R0 20.0%, R1 60.0%, R2 76.7%, R3 73.3%, R4 76.7%. A gain of 56.7 percentage points from R0 to R4."><figcaption>Self-evolution round</figcaption></figure>
-          <p>Three unseen long-horizon composite tasks · R0 → R4</p>
+          <figure class="result-curve"><img src="assets/images/teaser-cosmos3-real.svg" width="460" height="245" loading="lazy" alt="Cosmos3 real-robot success rates: R0 20.0%, R1 60.0%, R2 76.7%, R3 73.3%, R4 76.7%. A gain of 56.7 percentage points from R0 to R4."></figure>
+          <p>3 unseen long-horizon composite tasks</p>
         </article>
-      </div><p class="result-source">Success rates across self-training rounds (Table 3). <a href="assets/paper.pdf#page=9" target="_blank" rel="noopener">Round-by-round results ↗</a> <a href="assets/paper.pdf#page=6" target="_blank" rel="noopener">Evaluation settings ↗</a></p>
+      </div><p class="result-source"><a href="assets/paper.pdf#page=6" target="_blank" rel="noopener">Results &amp; evaluation ↗</a></p>
     </div></section>
 
     <section class="overview dark-section" id="overview"><div class="section-wrap">
       <div class="section-heading"><div><p class="eyebrow">02 / THE STORY</p><h2>See self-evolution unfold.</h2></div></div>
-      <div class="overview-stage"><video id="overview-video" class="overview-video" controls playsinline preload="none" poster="assets/images/demo-cover.jpg" aria-label="Narrated EVO-WAM overview"><source src="assets/videos/overview.mp4" type="video/mp4"><track kind="captions" src="assets/videos/overview.en.vtt" srclang="en" label="English"><p><a href="assets/videos/overview.mp4">Download the overview video</a></p></video><button type="button" id="demo-cover-play" class="demo-cover-play" hidden aria-label="Play the EVO-WAM overview"><span class="demo-play-disc"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#play"></use></svg></span><span class="demo-play-label">Watch the film</span></button></div>
+      <div class="overview-stage"><video id="overview-video" class="overview-video" controls playsinline preload="none" poster="assets/images/demo-cover.svg" aria-label="Narrated EVO-WAM overview"><source src="assets/videos/overview.mp4" type="video/mp4"><track kind="captions" src="assets/videos/overview.en.vtt" srclang="en" label="English"><p><a href="assets/videos/overview.mp4">Download the overview video</a></p></video><button type="button" id="demo-cover-play" class="demo-cover-play" hidden aria-label="Play the EVO-WAM overview"><span class="demo-play-disc"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#play"></use></svg></span></button></div>
       <div class="chapters" aria-label="Demo chapters"><button data-time="0">00:00 <span>The question</span></button><button data-time="8">00:08 <span>Before</span></button><button data-time="31">00:31 <span>Generate</span></button><button data-time="54">00:54 <span>Verify</span></button><button data-time="95">01:35 <span>Improve</span></button><button data-time="105">01:45 <span>After</span></button></div>
     </div></section>
 
     <section class="intro section-wrap">
-      <div><p class="eyebrow">LEARNING FROM VERIFIED IMAGINATION</p><h2>Imagine the task.<br> Verify the experience.<br> <span class="teal-text">Improve the policy.</span></h2></div>
-      <div class="intro-copy"><p>World action models predict videos and actions together. But an imagined success can still lead to a failed execution.</p><p>EVO-WAM turns reliable, self-generated trajectories into training experience. It checks both task completion and video–action consistency, then learns from the verified prefixes.</p><p class="principle">No additional expert demonstrations.<br> No external execution of candidate actions.</p><a class="text-link" href="#method">How self-evolution works <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-down"></use></svg></a></div>
+      <div><h2>Imagine the task.<br> Verify the experience.<br> <span class="teal-text">Improve the policy.</span></h2></div>
+      <div class="intro-copy"><p>EVO-WAM learns from its own generated video–action trajectories, retaining prefixes that pass task-completion and action-consistency checks.</p><p class="principle">Self-training uses no additional expert demonstrations or external execution of candidate actions.</p><a class="text-link" href="#method">Method <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-down"></use></svg></a></div>
     </section>
 
     <section class="experiments section-wrap" id="experiments">
-      <div class="section-heading"><div><p class="eyebrow">03 / IN ACTION</p><h2>From imagined experience<br> to better execution.</h2></div><p>Explore recorded policy executions<br> before and after self-evolution.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">03 / IN ACTION</p><h2>From imagined experience<br> to better execution.</h2></div></div>
       <div class="case-nav">
-        <div class="environment-tabs" role="group" aria-label="Environment"><button type="button" data-group="real" aria-pressed="true">Real world <span>03</span></button><button type="button" data-group="sim" aria-pressed="false">Simulation <span>03</span></button></div>
+        <div class="environment-tabs" role="group" aria-label="Environment"><button type="button" data-group="real" aria-pressed="true">Real world</button><button type="button" data-group="sim" aria-pressed="false">Simulation</button></div>
         <div class="task-tabs" role="group" aria-label="Choose a task" id="task-tabs"></div>
       </div>
       <div class="case-title-row"><h3 id="case-title">Place Ducks</h3><div class="pair-tools"><button type="button" id="pair-play"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#play"></use></svg> Play both</button><button type="button" id="pair-reset"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#restart"></use></svg> Restart</button></div></div>
       <div class="comparison">
-        <figure class="execution before"><figcaption><span><i></i> Earlier policy</span><span id="before-round">R1 policy</span></figcaption><video id="before-video" controls muted playsinline preload="none" poster="assets/images/start-real-ducks-before.jpg" src="assets/videos/real-ducks-before.mp4" aria-label="Place Ducks earlier policy execution"></video><div class="execution-foot"><span>Task incomplete</span><a id="before-download" href="assets/videos/real-ducks-before.mp4" download aria-label="Download before video">Download <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a></div></figure>
-        <figure class="execution after"><figcaption><span><i></i> Updated policy</span><span id="after-round">R2 policy</span></figcaption><video id="after-video" controls muted playsinline preload="none" poster="assets/images/start-real-ducks-after.jpg" src="assets/videos/real-ducks-after.mp4" aria-label="Place Ducks updated policy execution"></video><div class="execution-foot"><span>Task completed <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#check"></use></svg></span><a id="after-download" href="assets/videos/real-ducks-after.mp4" download aria-label="Download after video">Download <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a></div></figure>
+        <figure class="execution before"><figcaption><span><i></i> Before</span><span id="before-round">R1</span></figcaption><video id="before-video" controls muted playsinline preload="none" poster="assets/images/start-real-ducks-before.jpg" src="assets/videos/real-ducks-before.mp4" aria-label="Place Ducks earlier policy execution"></video><div class="execution-foot"><span>Task incomplete</span><a id="before-download" href="assets/videos/real-ducks-before.mp4" download aria-label="Download before video">Download <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a></div></figure>
+        <figure class="execution after"><figcaption><span><i></i> After</span><span id="after-round">R2</span></figcaption><video id="after-video" controls muted playsinline preload="none" poster="assets/images/start-real-ducks-after.jpg" src="assets/videos/real-ducks-after.mp4" aria-label="Place Ducks updated policy execution"></video><div class="execution-foot"><span>Task completed <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#check"></use></svg></span><a id="after-download" href="assets/videos/real-ducks-after.mp4" download aria-label="Download after video">Download <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a></div></figure>
       </div>
-      <p id="case-note" class="case-note" aria-live="polite">Independent physical trials with similar layouts. Before: R1; after: R2.</p>
-      <p class="playback-note">Videos start together and play independently at their recorded speeds. Physical execution clips omit inference waits.</p>
+      <p id="case-note" class="case-note" aria-live="polite">Separate trials, similar layouts. Inference pauses removed.</p>
       <noscript><p>Enable JavaScript to switch tasks and use paired playback. The two videos above can be played independently.</p></noscript>
     </section>
 
     <section class="method section-wrap" id="method">
-      <div class="section-heading"><div><p class="eyebrow">04 / THE METHOD</p><h2>Better experience.<br> One round at a time.</h2></div><p>Three steps connect imagined futures<br> to the next policy.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">04 / THE METHOD</p><h2>Better experience.<br> One round at a time.</h2></div></div>
       <div class="method-steps" aria-label="Explore the method">
-        <button type="button" data-step="generate" aria-controls="method-panel-generate" aria-pressed="true"><span class="step-number">01</span><strong>Imagine</strong><span>Generate video–action rollouts.</span><i><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></i></button>
-        <button type="button" data-step="verify" aria-controls="method-panel-verify" aria-pressed="false"><span class="step-number">02</span><strong>Verify</strong><span>Check success &amp; consistency.</span><i><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></i></button>
-        <button type="button" data-step="improve" aria-controls="method-panel-improve" aria-pressed="false"><span class="step-number">03</span><strong>Improve</strong><span>Learn from verified prefixes.</span><i><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></i></button>
+        <button type="button" data-step="generate" aria-controls="method-panel-generate" aria-pressed="true"><span class="step-number">01</span><strong>Imagine</strong><span>Generate rollouts</span><i><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></i></button>
+        <button type="button" data-step="verify" aria-controls="method-panel-verify" aria-pressed="false"><span class="step-number">02</span><strong>Verify</strong><span>Check completion &amp; consistency</span><i><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></i></button>
+        <button type="button" data-step="improve" aria-controls="method-panel-improve" aria-pressed="false"><span class="step-number">03</span><strong>Improve</strong><span>Train on verified prefixes</span><i><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></i></button>
       </div>
       <div id="method-panel-generate" class="method-panel imagine-panel" data-method-panel="generate">
+        <p class="imagination-task">Duck placement</p>
         <div class="imagination-grid">
-          <figure><video controls muted playsinline preload="none" poster="assets/images/real-ducks-blue-duck-misplaced.jpg" src="assets/videos/real-ducks-blue-duck-misplaced.mp4" aria-label="Duck-placement candidate 1"></video><figcaption>Duck placement <span>Candidate 1</span></figcaption></figure>
-          <figure><video controls muted playsinline preload="none" poster="assets/images/real-ducks-candidate-1.jpg" src="assets/videos/real-ducks-candidate-1.mp4" aria-label="Duck-placement candidate 2"></video><figcaption>Duck placement <span>Candidate 2</span></figcaption></figure>
-          <figure><video controls muted playsinline preload="none" poster="assets/images/real-ducks-candidate-2.jpg" src="assets/videos/real-ducks-candidate-2.mp4" aria-label="Duck-placement candidate 3"></video><figcaption>Duck placement <span>Candidate 3</span></figcaption></figure>
-          <figure><video controls muted playsinline preload="none" poster="assets/images/real-ducks-candidate-3.jpg" src="assets/videos/real-ducks-candidate-3.mp4" aria-label="Duck-placement candidate 4"></video><figcaption>Duck placement <span>Candidate 4</span></figcaption></figure>
+          <figure><video controls muted playsinline preload="none" poster="assets/images/real-ducks-blue-duck-misplaced.jpg" src="assets/videos/real-ducks-blue-duck-misplaced.mp4" aria-label="Duck-placement candidate 1"></video><figcaption>Candidate 1</figcaption></figure>
+          <figure><video controls muted playsinline preload="none" poster="assets/images/real-ducks-candidate-1.jpg" src="assets/videos/real-ducks-candidate-1.mp4" aria-label="Duck-placement candidate 2"></video><figcaption>Candidate 2</figcaption></figure>
+          <figure><video controls muted playsinline preload="none" poster="assets/images/real-ducks-candidate-2.jpg" src="assets/videos/real-ducks-candidate-2.mp4" aria-label="Duck-placement candidate 3"></video><figcaption>Candidate 3</figcaption></figure>
+          <figure><video controls muted playsinline preload="none" poster="assets/images/real-ducks-candidate-3.jpg" src="assets/videos/real-ducks-candidate-3.mp4" aria-label="Duck-placement candidate 4"></video><figcaption>Candidate 4</figcaption></figure>
         </div>
       </div>
 
@@ -129,66 +125,66 @@
         <div class="verification-lane lane-3" aria-hidden="true"></div>
         <div class="verification-lane lane-4" aria-hidden="true"></div>
         <section class="verification-row vlm-row" aria-labelledby="vlm-heading">
-          <div class="verification-row-label"><h3 id="vlm-heading">VLM</h3><p>Visual verification</p></div>
+          <div class="verification-row-label"><h3 id="vlm-heading">VLM</h3><p>Visual check</p></div>
           <div class="verification-row-content">
-            <div class="subgoal-intro"><h4>Check both placements and scene consistency.</h4><p>Initial visual scan → IDM check → endpoint votes.</p></div>
+            <div class="subgoal-intro"><p>Visual scan → IDM → endpoint vote</p></div>
             <div class="subgoal-candidates">
               <article class="subgoal-candidate candidate-1" data-candidate="1">
                 <header><h4>Candidate 1</h4><span class="verdict fail">Fail</span></header>
                 <ol class="subgoal-sequence">
-                  <li><div class="subgoal-title"><span>01 / Pink duck → pink bowl</span><time>9 s</time></div><a href="assets/verification/candidate-1-subgoal-1.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 1, subgoal 1"><img src="assets/verification/candidate-1-subgoal-1.jpg" loading="lazy" width="640" height="480" alt="Candidate 1, subgoal 1: Pink duck appears in the pink bowl."></a><div class="subgoal-verdict"><span class="verdict neutral">Observed</span><span>Demo frame</span></div><p>Pink duck appears in the pink bowl.</p></li>
-                  <li><div class="subgoal-title"><span>02 / Blue duck → blue bowl</span><time>18 s</time></div><a href="assets/verification/candidate-1-subgoal-2.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 1, subgoal 2"><img src="assets/verification/candidate-1-subgoal-2.jpg" loading="lazy" width="640" height="480" alt="Candidate 1, subgoal 2: Blue duck is released outside the blue bowl."></a><div class="subgoal-verdict"><span class="verdict fail">Fail</span><span>Demo frame</span></div><p>Blue duck is released outside the blue bowl.</p></li>
+                  <li><div class="subgoal-title"><span>01 / Pink duck → pink bowl</span><time>9 s</time></div><a href="assets/verification/candidate-1-subgoal-1.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 1, subgoal 1"><img src="assets/verification/candidate-1-subgoal-1.jpg" loading="lazy" width="640" height="480" alt="Candidate 1, subgoal 1: Pink duck appears in the pink bowl."></a><div class="subgoal-verdict"><span class="verdict neutral">Observed</span></div></li>
+                  <li><div class="subgoal-title"><span>02 / Blue duck → blue bowl</span><time>18 s</time></div><a href="assets/verification/candidate-1-subgoal-2.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 1, subgoal 2"><img src="assets/verification/candidate-1-subgoal-2.jpg" loading="lazy" width="640" height="480" alt="Candidate 1, subgoal 2: Blue duck is released outside the blue bowl."></a><div class="subgoal-verdict"><span class="verdict fail">Fail</span></div></li>
                 </ol>
-                <p class="candidate-explanation"><span class="evidence-kind">Demo frame review</span><strong>Blue duck misses its bowl.</strong><span>Released onto the table between the bowls.</span></p>
+                <p class="candidate-explanation"><span class="evidence-kind">Frame review</span>Blue duck lands between the bowls.</p>
               </article>
               <article class="subgoal-candidate candidate-2" data-candidate="2">
                 <header><h4>Candidate 2</h4><span class="verdict fail">Fail</span></header>
                 <ol class="subgoal-sequence">
-                  <li><div class="subgoal-title"><span>01 / Pink duck → pink bowl</span><time>9 s</time></div><a href="assets/verification/candidate-2-subgoal-1.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 2, subgoal 1"><img src="assets/verification/candidate-2-subgoal-1.jpg" loading="lazy" width="640" height="480" alt="Candidate 2, subgoal 1: Pink duck placed and released."></a><div class="subgoal-verdict"><span class="verdict pass">Pass</span><span>3/3 Accept</span></div><p>Pink duck placed and released.</p></li>
-                  <li><div class="subgoal-title"><span>02 / Blue duck → blue bowl</span><time>18 s</time></div><a href="assets/verification/candidate-2-subgoal-2.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 2, subgoal 2"><img src="assets/verification/candidate-2-subgoal-2.jpg" loading="lazy" width="640" height="480" alt="Candidate 2, subgoal 2: the original blue duck remains on the table, outside the blue bowl."></a><div class="subgoal-verdict"><span class="verdict fail">Fail</span><span>1/3 Accept</span></div><p>Original blue duck remains on the table.</p></li>
+                  <li><div class="subgoal-title"><span>01 / Pink duck → pink bowl</span><time>9 s</time></div><a href="assets/verification/candidate-2-subgoal-1.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 2, subgoal 1"><img src="assets/verification/candidate-2-subgoal-1.jpg" loading="lazy" width="640" height="480" alt="Candidate 2, subgoal 1: Pink duck placed and released."></a><div class="subgoal-verdict"><span class="verdict pass">Pass</span><span>3/3 Accept</span></div></li>
+                  <li><div class="subgoal-title"><span>02 / Blue duck → blue bowl</span><time>18 s</time></div><a href="assets/verification/candidate-2-subgoal-2.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 2, subgoal 2"><img src="assets/verification/candidate-2-subgoal-2.jpg" loading="lazy" width="640" height="480" alt="Candidate 2, subgoal 2: the original blue duck remains on the table, outside the blue bowl."></a><div class="subgoal-verdict"><span class="verdict fail">Fail</span><span>1/3 Accept</span></div></li>
                 </ol>
-                <p class="candidate-explanation"><span class="evidence-kind">Demo frame review</span><strong>Object inconsistency.</strong><span>A second duck appears while the original remains.</span></p>
+                <p class="candidate-explanation"><span class="evidence-kind">Frame review</span><strong>Object inconsistency:</strong> a second duck appears while the original remains.</p>
               </article>
               <article class="subgoal-candidate candidate-3" data-candidate="3">
                 <header><h4>Candidate 3</h4><span class="verdict pass">Initial pass</span></header>
                 <ol class="subgoal-sequence">
-                  <li><div class="subgoal-title"><span>01 / Pink duck → pink bowl</span><time>9 s</time></div><a href="assets/verification/candidate-3-subgoal-1.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 3, subgoal 1"><img src="assets/verification/candidate-3-subgoal-1.jpg" loading="lazy" width="640" height="480" alt="Candidate 3, subgoal 1: Pink-duck placement accepted by the initial scan."></a><div class="subgoal-verdict"><span class="verdict pass">Pass</span><span>Initial scan</span></div><p>Pink-duck placement accepted by the initial scan.</p></li>
-                  <li><div class="subgoal-title"><span>02 / Blue duck → blue bowl</span><time>16 s</time></div><a href="assets/verification/candidate-3-subgoal-2.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 3, subgoal 2"><img src="assets/verification/candidate-3-subgoal-2.jpg" loading="lazy" width="640" height="480" alt="Candidate 3, subgoal 2: Blue-duck placement accepted by the initial scan."></a><div class="subgoal-verdict"><span class="verdict pass">Pass</span><span>Initial scan</span></div><p>Blue-duck placement accepted by the initial scan.</p></li>
+                  <li><div class="subgoal-title"><span>01 / Pink duck → pink bowl</span><time>9 s</time></div><a href="assets/verification/candidate-3-subgoal-1.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 3, subgoal 1"><img src="assets/verification/candidate-3-subgoal-1.jpg" loading="lazy" width="640" height="480" alt="Candidate 3, subgoal 1: Pink-duck placement accepted by the initial scan."></a><div class="subgoal-verdict"><span class="verdict pass">Pass</span></div></li>
+                  <li><div class="subgoal-title"><span>02 / Blue duck → blue bowl</span><time>16 s</time></div><a href="assets/verification/candidate-3-subgoal-2.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 3, subgoal 2"><img src="assets/verification/candidate-3-subgoal-2.jpg" loading="lazy" width="640" height="480" alt="Candidate 3, subgoal 2: Blue-duck placement accepted by the initial scan."></a><div class="subgoal-verdict"><span class="verdict pass">Pass</span></div></li>
                 </ol>
-                <p class="candidate-explanation"><strong>Initial visual scan passes.</strong><span>Final endpoint votes are not run after IDM rejection.</span></p>
+                <p class="candidate-explanation">IDM failed; endpoint votes skipped.</p>
               </article>
               <article class="subgoal-candidate candidate-4" data-candidate="4">
                 <header><h4>Candidate 4</h4><span class="verdict pass">Pass</span></header>
                 <ol class="subgoal-sequence">
-                  <li><div class="subgoal-title"><span>01 / Pink duck → pink bowl</span><time>9 s</time></div><a href="assets/verification/candidate-4-subgoal-1.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 4, subgoal 1"><img src="assets/verification/candidate-4-subgoal-1.jpg" loading="lazy" width="640" height="480" alt="Candidate 4, subgoal 1: Pink duck placed and released."></a><div class="subgoal-verdict"><span class="verdict pass">Pass</span><span>2/3 Accept</span></div><p>Pink duck placed and released.</p></li>
-                  <li><div class="subgoal-title"><span>02 / Blue duck → blue bowl</span><time>17 s</time></div><a href="assets/verification/candidate-4-subgoal-2.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 4, subgoal 2"><img src="assets/verification/candidate-4-subgoal-2.jpg" loading="lazy" width="640" height="480" alt="Candidate 4, subgoal 2: Both ducks in their matching bowls."></a><div class="subgoal-verdict"><span class="verdict pass">Pass</span><span>2/3 Accept</span></div><p>Both ducks in their matching bowls.</p></li>
+                  <li><div class="subgoal-title"><span>01 / Pink duck → pink bowl</span><time>9 s</time></div><a href="assets/verification/candidate-4-subgoal-1.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 4, subgoal 1"><img src="assets/verification/candidate-4-subgoal-1.jpg" loading="lazy" width="640" height="480" alt="Candidate 4, subgoal 1: Pink duck placed and released."></a><div class="subgoal-verdict"><span class="verdict pass">Pass</span><span>2/3 Accept</span></div></li>
+                  <li><div class="subgoal-title"><span>02 / Blue duck → blue bowl</span><time>17 s</time></div><a href="assets/verification/candidate-4-subgoal-2.jpg" target="_blank" rel="noopener" aria-label="Enlarge candidate 4, subgoal 2"><img src="assets/verification/candidate-4-subgoal-2.jpg" loading="lazy" width="640" height="480" alt="Candidate 4, subgoal 2: Both ducks in their matching bowls."></a><div class="subgoal-verdict"><span class="verdict pass">Pass</span><span>2/3 Accept</span></div></li>
                 </ol>
-                <p class="candidate-explanation"><strong>Both placements confirmed.</strong><span>Retained for training after both verification stages.</span></p>
+                <p class="candidate-explanation">Retained for training.</p>
               </article>
             </div>
-            <p class="vlm-checks"><strong>At each subgoal:</strong> goal satisfied · required release · consistent objects · consistent robot. Endpoint confirmation requires ≥2/3 Accept votes.</p>
+            <p class="vlm-checks"><strong>Checks:</strong> goal completion · release · object consistency · robot consistency. <span class="endpoint-rule">Endpoint vote: ≥2/3 Accept.</span></p>
           </div>
         </section>
         <section class="verification-row idm-row" aria-labelledby="idm-heading">
           <div class="verification-row-label"><h3 id="idm-heading">IDM</h3><p>Action consistency</p></div>
           <div class="verification-row-content">
             <div class="idm-candidates">
-              <figure class="idm-candidate candidate-3" data-candidate="3"><figcaption><h4>Candidate 3</h4><span class="verdict fail">Fail</span></figcaption><img src="assets/verification/candidate-3-idm-mean.svg" loading="lazy" width="450" height="225" alt="Candidate 3: mean action reconstruction MSE ends at 0.008226, above the threshold of 0.008111."><p class="idm-mean-value">Mean MSE <strong class="rejected-text">0.008226</strong></p><p class="idm-threshold">Threshold <span>0.008111</span></p></figure>
-              <figure class="idm-candidate candidate-4" data-candidate="4"><figcaption><h4>Candidate 4</h4><span class="verdict pass">Pass</span></figcaption><img src="assets/verification/candidate-4-idm-mean.svg" loading="lazy" width="450" height="225" alt="Candidate 4: mean action reconstruction MSE ends at 0.006650, below the threshold of 0.008111."><p class="idm-mean-value">Mean MSE <strong>0.006650</strong></p><p class="idm-threshold">Threshold <span>0.008111</span></p></figure>
+              <figure class="idm-candidate candidate-3" data-candidate="3"><figcaption><h4>Candidate 3</h4><span class="verdict fail">Fail</span></figcaption><img src="assets/verification/candidate-3-idm-mean.svg" loading="lazy" width="450" height="225" alt="Candidate 3: mean action reconstruction MSE ends at 0.008226, above the threshold of 0.008111."><p class="idm-comparison" aria-label="Mean MSE 0.008226 exceeds threshold 0.008111"><span>Mean MSE / threshold</span><span><strong class="rejected-text">0.008226</strong> &gt; 0.008111</span></p></figure>
+              <figure class="idm-candidate candidate-4" data-candidate="4"><figcaption><h4>Candidate 4</h4><span class="verdict pass">Pass</span></figcaption><img src="assets/verification/candidate-4-idm-mean.svg" loading="lazy" width="450" height="225" alt="Candidate 4: mean action reconstruction MSE ends at 0.006650, below the threshold of 0.008111."><p class="idm-comparison" aria-label="Mean MSE 0.006650 is below threshold 0.008111"><span>Mean MSE / threshold</span><span><strong>0.006650</strong> &lt; 0.008111</span></p></figure>
             </div>
           </div>
         </section>
       </div>
 
-      <div id="method-panel-improve" class="method-panel method-detail" data-method-panel="improve" hidden><div><p class="eyebrow">03 / IMPROVE</p><h3>Learn from experience.<br>Generate again.</h3><p>Verified prefixes accumulate across tasks and rounds. Mix them with the original training data, fine-tune a shared world action model, and use the updated model to generate the next round of candidates.</p><p class="method-token">Verified prefixes + original data → updated WAM</p></div><figure><video controls muted playsinline preload="none" poster="assets/images/start-real-ducks-after.jpg" src="assets/videos/real-ducks-after.mp4" aria-label="Physical duck-placement execution after self-evolution"></video><figcaption>Recorded physical execution · R2 policy</figcaption></figure></div>
+      <div id="method-panel-improve" class="method-panel method-detail" data-method-panel="improve" hidden><div><h3>Learn from experience.<br>Generate again.</h3><p>Accumulate verified prefixes across tasks and rounds, mix them with the original data, and fine-tune the WAM for the next round.</p></div><figure><video controls muted playsinline preload="none" poster="assets/images/start-real-ducks-after.jpg" src="assets/videos/real-ducks-after.mp4" aria-label="Physical duck-placement execution after self-evolution"></video><figcaption>Real execution · R2</figcaption></figure></div>
 
-      <details class="paper-figure"><summary>Explore the complete framework <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#plus"></use></svg></summary><img src="assets/images/method.png" loading="lazy" width="1413" height="816" alt="EVO-WAM framework: autoregressive video-action-state generation, visual goal evaluation and inverse-dynamics consistency verification, followed by supervised fine-tuning with accepted prefixes and original data."><p>Figure 2 from the paper. Verified prefixes accumulate across rounds and are mixed with original training data.</p></details>
+      <details class="paper-figure"><summary>Full framework <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#plus"></use></svg></summary><img src="assets/images/method.png" loading="lazy" width="1413" height="816" alt="EVO-WAM framework: autoregressive video-action-state generation, visual goal evaluation and inverse-dynamics consistency verification, followed by supervised fine-tuning with accepted prefixes and original data."><p>Paper, Figure 2.</p></details>
     </section>
 
     <section class="resources dark-section" id="resources"><div class="section-wrap">
-      <div class="section-heading"><div><p class="eyebrow">05 / RESOURCES</p><h2>Explore EVO-WAM.</h2></div><a class="button primary" href="assets/paper.pdf" target="_blank" rel="noopener">Read the paper <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a></div>
-      <div class="resource-list"><a href="assets/paper.pdf" target="_blank" rel="noopener"><span>01 / Paper</span><strong>Full manuscript</strong><i><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></i></a><div><span>02 / arXiv</span><strong>Coming soon</strong><small>Link will be added on release.</small></div><div><span>03 / Code</span><strong>Coming soon</strong><small>Repository will be linked on release.</small></div></div>
-      <footer><a class="brand" href="#top">EVO-WAM</a><span>Generate. Verify. Improve.</span><a href="#top">Back to top <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up"></use></svg></a></footer>
+      <div class="section-heading"><div><p class="eyebrow">05 / RESOURCES</p><h2>Explore EVO-WAM.</h2></div></div>
+      <div class="resource-list"><a href="assets/paper.pdf" target="_blank" rel="noopener"><strong>Paper</strong><i><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></i></a><div><span>arXiv</span><strong>Coming soon</strong></div><div><span>Code</span><strong>Coming soon</strong></div></div>
+      <footer><a class="brand" href="#top">EVO-WAM</a><a href="#top">Back to top <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up"></use></svg></a></footer>
     </div></section>
   </main>
   <p id="playback-status" class="sr-only" role="status"></p>

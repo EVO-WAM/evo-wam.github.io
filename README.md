@@ -23,12 +23,12 @@ Open http://127.0.0.1:4173/. This server supports byte ranges for video seeking.
 - `assets/images/`: posters, paper framework figure, social preview, and Cosmos3/DreamZero R0–R4 result curves from paper Table 3.
 - `assets/verification/`: visual evidence frames and IDM mean-error plots from the demo candidates.
 - `assets/fonts/`: locally served Sora and Manrope, with their licenses.
-- `demo-cover.html`: editable 1280 × 720 cover layout using three frames from the existing real-robot clips; its rendered JPEG is used as the overview poster.
+- `assets/images/demo-cover.svg`: overview poster composed from the same three real-robot frames, with only the title and task names. `demo-cover.html` retains an editable HTML layout reference.
 - `assets/icons.svg`: selected Lucide 1.8.0 icons; the ISC license is included in `assets/LUCIDE-LICENSE.txt`. The header uses the project name as a plain wordmark.
 
 The arXiv and method-code links are marked “Coming soon” until their URLs are available. Author homepage links can be added once verified. Citation content is omitted until the arXiv reference is available.
 
-Contact: Shiyang Zhou, `shiyangzhou@stu.hit.edu.cn`. Corresponding author: Zhuotao Tian, `tianzhuotao@hit.edu.cn`. Both emails link to `mailto:` addresses on the website and in the manuscript; the manuscript places Contact below Project Page.
+Author emails appear between affiliations and contribution notes: Shiyang Zhou (`shiyangzhou@stu.hit.edu.cn`), Wenbo Li (`fenglinglwb@gmail.com`), then corresponding author Zhuotao Tian (`tianzhuotao@hit.edu.cn`). All three are clickable mailto links.
 
 Results appear directly below the author block, before the demo. Cosmos3 simulation, DreamZero simulation, and Cosmos3 real-robot results each pair a complete R0–R4 curve with the matching start/end success rates and percentage-point gain. The curve and gain share a color within each column.
 
@@ -41,3 +41,7 @@ Only Candidates 3 and 4 show IDM results. Their mean reconstruction errors are 0
 ## Hosting
 
 This site is compatible with GitHub Pages from the root directory. `.nojekyll` disables Jekyll processing. No build tool, external JavaScript dependency, analytics, or third-party media service is required.
+
+## Concise page copy
+
+The 2026-09-30 revision removes repeated descriptions and decorative small text. The verification cards retain both goals, recorded votes, frame-review provenance, the initial-only pass for Candidate 3, and exact IDM errors/thresholds. Case notes retain independent physical trials, the bowl instruction difference, omitted inference pauses, and matched simulation initial conditions. Author information, results, videos, captions, and accessibility labels remain available.

@@ -3,17 +3,17 @@
     "id": "real-ducks",
     "title": "Place Ducks",
     "group": "real",
-    "note": "Independent physical trials with similar layouts. Before: R1; after: R2.",
+    "note": "Separate trials, similar layouts. Inference pauses removed.",
     "clips": [
       {
         "src": "assets/videos/real-ducks-before.mp4",
         "poster": "assets/images/start-real-ducks-before.jpg",
-        "round": "R1 policy"
+        "round": "R1"
       },
       {
         "src": "assets/videos/real-ducks-after.mp4",
         "poster": "assets/images/start-real-ducks-after.jpg",
-        "round": "R2 policy"
+        "round": "R2"
       }
     ]
   },
@@ -21,17 +21,17 @@
     "id": "real-drawer",
     "title": "Load the Air Fryer",
     "group": "real",
-    "note": "Independent physical trials with similar layouts. Before: R0; after: R2.",
+    "note": "Separate trials, similar layouts. Inference pauses removed.",
     "clips": [
       {
         "src": "assets/videos/real-drawer-before.mp4",
         "poster": "assets/images/start-real-drawer-before.jpg",
-        "round": "R0 policy"
+        "round": "R0"
       },
       {
         "src": "assets/videos/real-drawer-after.mp4",
         "poster": "assets/images/start-real-drawer-after.jpg",
-        "round": "R2 policy"
+        "round": "R2"
       }
     ]
   },
@@ -39,17 +39,17 @@
     "id": "real-bowls",
     "title": "Stack Bowls",
     "group": "real",
-    "note": "Independent physical trials with similar layouts. The after-training instruction explicitly asks to lift both bowls together.",
+    "note": "Separate trials, similar layouts. Inference pauses removed. After instruction: lift both bowls together.",
     "clips": [
       {
         "src": "assets/videos/real-bowls-before.mp4",
         "poster": "assets/images/start-real-bowls-before.jpg",
-        "round": "R0 policy"
+        "round": "R0"
       },
       {
         "src": "assets/videos/real-bowls-after.mp4",
         "poster": "assets/images/start-real-bowls-after.jpg",
-        "round": "R2 policy"
+        "round": "R2"
       }
     ]
   },
@@ -57,17 +57,17 @@
     "id": "sim-stack_blocks_three",
     "title": "Stack Three Blocks",
     "group": "sim",
-    "note": "Before and after use the same initial scene and task instruction. Before: R0; after: R4.",
+    "note": "Same initial scene and instruction.",
     "clips": [
       {
         "src": "assets/videos/sim-stack_blocks_three-before.mp4",
         "poster": "assets/images/start-sim-stack_blocks_three-before.jpg",
-        "round": "R0 policy"
+        "round": "R0"
       },
       {
         "src": "assets/videos/sim-stack_blocks_three-after.mp4",
         "poster": "assets/images/start-sim-stack_blocks_three-after.jpg",
-        "round": "R4 policy"
+        "round": "R4"
       }
     ]
   },
@@ -75,17 +75,17 @@
     "id": "sim-place_empty_cup",
     "title": "Place Cup on Coaster",
     "group": "sim",
-    "note": "Before and after use the same initial scene and task instruction. Before: R0; after: R4.",
+    "note": "Same initial scene and instruction.",
     "clips": [
       {
         "src": "assets/videos/sim-place_empty_cup-before.mp4",
         "poster": "assets/images/start-sim-place_empty_cup-before.jpg",
-        "round": "R0 policy"
+        "round": "R0"
       },
       {
         "src": "assets/videos/sim-place_empty_cup-after.mp4",
         "poster": "assets/images/start-sim-place_empty_cup-after.jpg",
-        "round": "R4 policy"
+        "round": "R4"
       }
     ]
   },
@@ -93,17 +93,17 @@
     "id": "sim-place_bread_basket",
     "title": "Place Bread in Basket",
     "group": "sim",
-    "note": "Before and after use the same initial scene and task instruction. Before: R0; after: R4.",
+    "note": "Same initial scene and instruction.",
     "clips": [
       {
         "src": "assets/videos/sim-place_bread_basket-before.mp4",
         "poster": "assets/images/start-sim-place_bread_basket-before.jpg",
-        "round": "R0 policy"
+        "round": "R0"
       },
       {
         "src": "assets/videos/sim-place_bread_basket-after.mp4",
         "poster": "assets/images/start-sim-place_bread_basket-after.jpg",
-        "round": "R4 policy"
+        "round": "R4"
       }
     ]
   }

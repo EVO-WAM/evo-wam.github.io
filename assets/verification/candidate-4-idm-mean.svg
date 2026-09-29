@@ -735,28 +735,6 @@ L 320.99976 133.999135
 " style="fill: none; stroke: #cad9d1; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="legend_1">
-    <g id="line2d_18">
-     <path d="M 111.150625 8.647289
-L 119.150625 8.647289
-L 127.150625 8.647289
-" style="fill: none; stroke: #348c73; stroke-width: 1.9; stroke-linecap: square"/>
-     <g>
-      <use xlink:href="#m7f368a2e1f" x="119.150625" y="8.647289" style="fill: #348c73; stroke: #348c73"/>
-     </g>
-    </g>
-    <g id="text_12">
-     <!-- Mean MSE -->
-     <g style="fill: #173c3d" transform="translate(133.550625 11.447289) scale(0.08 -0.08)">
-      <use xlink:href="#DejaVuSans-30"/>
-      <use xlink:href="#DejaVuSans-48" transform="translate(86.28125 0)"/>
-      <use xlink:href="#DejaVuSans-44" transform="translate(147.8125 0)"/>
-      <use xlink:href="#DejaVuSans-51" transform="translate(209.09375 0)"/>
-      <use xlink:href="#DejaVuSans-3" transform="translate(272.46875 0)"/>
-      <use xlink:href="#DejaVuSans-30" transform="translate(304.25 0)"/>
-      <use xlink:href="#DejaVuSans-36" transform="translate(390.53125 0)"/>
-      <use xlink:href="#DejaVuSans-28" transform="translate(454.015625 0)"/>
-     </g>
-    </g>
     <g id="line2d_19">
      <path d="M 190.926875 8.647289
 L 198.926875 8.647289

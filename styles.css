@@ -54,7 +54,7 @@
 .subgoal-sequence img{width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;border-radius:4px;background:#e7ece8}
 .subgoal-sequence a:hover img{outline:2px solid #90b2a7;outline-offset:2px}
 .subgoal-verdict{display:flex;flex-wrap:wrap;align-items:center;gap:5px 7px;margin-top:9px}
-.subgoal-verdict>span:last-child{font-size:9px;color:var(--muted)}
+.subgoal-verdict>span:not(.verdict){font-size:9px;color:var(--muted)}
 .subgoal-sequence p{font-size:10px;line-height:1.6;color:var(--muted);margin:7px 0 0}
 .candidate-explanation{font-size:10px;line-height:1.65;margin:15px 0 0;border-top:1px solid #d5e1d7;padding-top:11px}
 .candidate-explanation strong{display:block;font-weight:750;color:var(--ink);margin-bottom:3px}
@@ -143,4 +143,50 @@
   .result-values{margin:20px 0 10px}
   .result-curve{max-width:450px;margin:12px auto 18px}
   .result-curve figcaption{font-size:10px}
+}
+
+/* Keep the remaining evidence and controls readable after removing repeated copy. */
+.hero-bottom,.hero-bottom button{font-size:12px}
+.hero-title-long{margin-bottom:32px}
+.affiliations,.contributions{font-size:12px}
+.author-contact{font-size:13px}
+.result-context,.result-context>span{font-size:13px}
+.result>p:last-child,.result-source{font-size:13px}
+.execution figcaption,.execution figcaption>span:last-child,.execution-foot{font-size:13px}
+.execution figcaption{justify-content:flex-start;gap:8px}
+.execution figcaption>span:last-child::before{content:"·";margin-right:8px}
+.case-note{font-size:14px}
+.chapters button{font-size:12px}
+.method-steps button>span:last-of-type{font-size:13px;line-height:1.5}
+.imagination-task{font-size:14px;font-weight:650;margin-bottom:14px}
+.imagination-grid figcaption{font-size:14px}
+.subgoal-intro p{font-size:14px;color:var(--ink)}
+.verification-row-label p{font-size:12px}
+.subgoal-candidate>header,.idm-candidate>figcaption{flex-wrap:wrap}
+.subgoal-candidate h4,.idm-candidate h4{font-size:14px}
+.verdict{font-size:12px;padding:3px 6px}
+.subgoal-title{font-size:13px;min-height:72px}
+.subgoal-title time{font-size:12px}
+.subgoal-verdict>span:not(.verdict){font-size:12px}
+.candidate-explanation{font-size:14px;line-height:1.6;color:var(--ink)}
+.candidate-explanation strong{display:inline}
+.candidate-explanation .evidence-kind{font-size:12px;letter-spacing:0}
+.vlm-checks{font-size:13px}
+.endpoint-rule{display:inline-block;margin-left:8px}
+.idm-comparison{font-size:13px;line-height:1.6;margin:10px 0 0}
+.idm-comparison>span{display:block}
+.idm-comparison>span:first-child{color:var(--muted);font-size:12px}
+.idm-comparison>span:last-child{white-space:nowrap}
+.idm-comparison strong{color:var(--teal)}
+.idm-comparison strong.rejected-text{color:#a16352}
+.method-detail figcaption,.paper-figure>p,.resource-list span,footer{font-size:13px}
+@media(max-width:760px){
+  .case-note,.candidate-explanation,.subgoal-intro p{font-size:13px}
+  .subgoal-title{font-size:13px;min-height:72px}
+  .vlm-checks{font-size:13px}
+  .endpoint-rule{display:block;margin:4px 0 0}
+  .subgoal-candidate::before,.idm-candidate::before{font-size:12px;letter-spacing:.3px}
+  .method-steps button>span:last-of-type{font-size:12px}
+  .execution-foot>a{font-size:0}
+  .author-contact{font-size:12px}
 }
