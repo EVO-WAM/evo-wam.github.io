@@ -116,7 +116,7 @@
   .vlm-checks{grid-column:1;grid-row:8;font-size:9px;margin-top:16px;padding:0}
 }
 
-.author-contact{display:flex;align-items:baseline;justify-content:center;flex-wrap:wrap;gap:8px 20px;font-size:12px;line-height:1.7;margin:20px 0 0}
+.author-contact{display:flex;align-items:baseline;justify-content:center;flex-wrap:wrap;gap:8px 24px;font-size:12px;line-height:1.7;margin:20px 0 18px}
 .author-contact>span{font-size:10px;color:var(--muted);letter-spacing:1px;text-transform:uppercase}
 .author-contact a,.contributions a{color:var(--teal);text-decoration:underline;text-decoration-color:#a8cfc4;text-underline-offset:4px;overflow-wrap:anywhere}
 .author-contact a:hover,.contributions a:hover{text-decoration-color:currentColor}
