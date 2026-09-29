@@ -18,15 +18,17 @@ Open http://127.0.0.1:4173/. This server supports byte ranges for video seeking.
 - `cases.json`: six case studies, video paths, policy rounds, and comparison notes.
 - `site.js`: task selection, paired playback, chapters, method exploration, and background motion.
 - `styles.css`: responsive page styles, including reduced-motion support.
-- `assets/paper.pdf`: supplied manuscript.
+- `assets/paper.pdf`: compiled manuscript, including the current author contact details.
 - `assets/videos/`: recorded execution clips, generated candidate clips, narrated overview, and a lightweight hero loop. The 2026-09-29 overview revision changes one narration sentence to “Visual voting rejects this candidate,” with synchronized on-screen and WebVTT captions.
-- `assets/images/`: posters, paper framework figure, and social preview.
+- `assets/images/`: posters, paper framework figure, social preview, and Cosmos3 R0–R4 teaser plots from paper Table 3.
 - `assets/verification/`: visual evidence frames and IDM mean-error plots from the demo candidates.
 - `assets/fonts/`: locally served Sora and Manrope, with their licenses.
 - `demo-cover.html`: editable 1280 × 720 cover layout using three frames from the existing real-robot clips; its rendered JPEG is used as the overview poster.
 - `assets/icons.svg`: selected Lucide 1.8.0 icons; the ISC license is included in `assets/LUCIDE-LICENSE.txt`. The header uses the project name as a plain wordmark.
 
 The arXiv and method-code links are marked “Coming soon” until their URLs are available. Author homepage links can be added once verified. Citation content is omitted until the arXiv reference is available.
+
+Contact: Shiyang Zhou, `shiyangzhou@stu.hit.edu.cn`. Corresponding author: Zhuotao Tian, `tianzhuotao@hit.edu.cn`. Both emails link to `mailto:` addresses on the website and in the manuscript; the manuscript places Contact below Project Page.
 
 ## Method explorer
 
