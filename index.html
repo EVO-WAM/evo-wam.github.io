@@ -21,13 +21,12 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="EVO-WAM home">EVO-WAM</a>
-    <nav aria-label="Main navigation"><a href="#experiments">In action</a><a href="#method">Method</a><a href="#results">Results</a><a href="#resources">Resources <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a></nav>
+    <nav aria-label="Main navigation"><a href="#results">Results</a><a href="#experiments">In action</a><a href="#method">Method</a><a href="#resources">Resources <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a></nav>
   </header>
 
   <section class="hero" id="top" aria-labelledby="hero-title">
     <div class="hero-backdrop" aria-hidden="true"><video id="hero-video" muted loop playsinline preload="none" poster="assets/images/hero.jpg" data-src="assets/videos/hero.mp4" tabindex="-1"></video></div>
     <div class="hero-shade"></div>
-    <div class="hero-layout">
     <div class="hero-content">
       <p class="eyebrow hero-eyebrow"><span class="status-dot"></span> GENERATE <i>→</i> VERIFY <i>→</i> IMPROVE</p>
       <h1 id="hero-title">EVO<span class="title-dash">-</span>WAM</h1>
@@ -39,16 +38,6 @@
         <span class="resource-pending">arXiv <small>Coming soon</small></span>
         <span class="resource-pending">Code <small>Coming soon</small></span>
       </div>
-    </div>
-    <aside class="hero-teaser" aria-labelledby="teaser-title">
-      <header class="teaser-heading"><div><p class="eyebrow">SELF-EVOLUTION</p><h2 id="teaser-title">Cosmos3</h2></div><span>R0 → R4</span></header>
-      <p class="teaser-measure">Mean task success (%)</p>
-      <div class="teaser-plots">
-        <figure class="teaser-plot"><figcaption><strong>Simulation</strong><span>7 unseen tasks</span></figcaption><img src="assets/images/teaser-cosmos3-simulation.svg" width="460" height="245" alt="Cosmos3 in simulation: success rates at rounds R0 through R4 are 26.9%, 58.3%, 66.6%, 63.6%, and 68.0%."></figure>
-        <figure class="teaser-plot"><figcaption><strong>Real robot</strong><span>3 unseen tasks</span></figcaption><img src="assets/images/teaser-cosmos3-real.svg" width="460" height="245" alt="Cosmos3 on real robots: success rates at rounds R0 through R4 are 20.0%, 60.0%, 76.7%, 73.3%, and 76.7%."></figure>
-      </div>
-      <a class="teaser-source" href="assets/paper.pdf#page=9" target="_blank" rel="noopener">Self-evolution rounds · Paper, Table 3 <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a>
-    </aside>
     </div>
     <div class="hero-bottom"><a href="#team">Explore the research <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-down"></use></svg></a><span>World action models · 2026</span><button id="motion-toggle" type="button" hidden>Pause background <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#pause"></use></svg></button></div>
   </section>
@@ -64,8 +53,35 @@
       <p class="author-contact"><span>Contact</span><a href="mailto:shiyangzhou@stu.hit.edu.cn" aria-label="Email Shiyang Zhou at shiyangzhou@stu.hit.edu.cn">shiyangzhou@stu.hit.edu.cn</a></p>
     </section>
 
+    <section class="results" id="results"><div class="section-wrap">
+      <div class="section-heading"><div><p class="eyebrow">01 / RESULTS</p><h2>Imagination that<br> improves performance.</h2></div><p>Mean task success rate (%)<br> Self-evolution rounds R0–R4</p></div>
+      <div class="results-grid">
+        <article class="result result-cosmos-sim" aria-labelledby="result-cosmos-sim-title">
+          <h3 class="result-context" id="result-cosmos-sim-title">SIMULATION <span>Cosmos3</span></h3>
+          <div class="result-values"><span>26.9</span><i>→</i><strong>68.0<small>%</small></strong></div>
+          <p class="gain">+41.1 <span>percentage points</span></p>
+          <figure class="result-curve"><img src="assets/images/teaser-cosmos3-simulation.svg" width="460" height="245" loading="lazy" alt="Cosmos3 simulation success rates: R0 26.9%, R1 58.3%, R2 66.6%, R3 63.6%, R4 68.0%. A gain of 41.1 percentage points from R0 to R4."><figcaption>Self-evolution round</figcaption></figure>
+          <p>Seven unseen RoboTwin 2.0 tasks · R0 → R4</p>
+        </article>
+        <article class="result result-dreamzero-sim" aria-labelledby="result-dreamzero-sim-title">
+          <h3 class="result-context" id="result-dreamzero-sim-title">SIMULATION <span>DreamZero</span></h3>
+          <div class="result-values"><span>28.5</span><i>→</i><strong>46.4<small>%</small></strong></div>
+          <p class="gain">+17.9 <span>percentage points</span></p>
+          <figure class="result-curve"><img src="assets/images/teaser-dreamzero-simulation.svg" width="460" height="245" loading="lazy" alt="DreamZero simulation success rates: R0 28.5%, R1 36.5%, R2 42.3%, R3 45.1%, R4 46.4%. A gain of 17.9 percentage points from R0 to R4."><figcaption>Self-evolution round</figcaption></figure>
+          <p>Seven unseen RoboTwin 2.0 tasks · R0 → R4</p>
+        </article>
+        <article class="result result-cosmos-real" aria-labelledby="result-cosmos-real-title">
+          <h3 class="result-context" id="result-cosmos-real-title">REAL WORLD <span>Cosmos3</span></h3>
+          <div class="result-values"><span>20.0</span><i>→</i><strong>76.7<small>%</small></strong></div>
+          <p class="gain">+56.7 <span>percentage points</span></p>
+          <figure class="result-curve"><img src="assets/images/teaser-cosmos3-real.svg" width="460" height="245" loading="lazy" alt="Cosmos3 real-robot success rates: R0 20.0%, R1 60.0%, R2 76.7%, R3 73.3%, R4 76.7%. A gain of 56.7 percentage points from R0 to R4."><figcaption>Self-evolution round</figcaption></figure>
+          <p>Three unseen long-horizon composite tasks · R0 → R4</p>
+        </article>
+      </div><p class="result-source">Success rates across self-training rounds (Table 3). <a href="assets/paper.pdf#page=9" target="_blank" rel="noopener">Round-by-round results ↗</a> <a href="assets/paper.pdf#page=6" target="_blank" rel="noopener">Evaluation settings ↗</a></p>
+    </div></section>
+
     <section class="overview dark-section" id="overview"><div class="section-wrap">
-      <div class="section-heading"><div><p class="eyebrow">01 / THE STORY</p><h2>See self-evolution unfold.</h2></div></div>
+      <div class="section-heading"><div><p class="eyebrow">02 / THE STORY</p><h2>See self-evolution unfold.</h2></div></div>
       <div class="overview-stage"><video id="overview-video" class="overview-video" controls playsinline preload="none" poster="assets/images/demo-cover.jpg" aria-label="Narrated EVO-WAM overview"><source src="assets/videos/overview.mp4" type="video/mp4"><track kind="captions" src="assets/videos/overview.en.vtt" srclang="en" label="English"><p><a href="assets/videos/overview.mp4">Download the overview video</a></p></video><button type="button" id="demo-cover-play" class="demo-cover-play" hidden aria-label="Play the EVO-WAM overview"><span class="demo-play-disc"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#play"></use></svg></span><span class="demo-play-label">Watch the film</span></button></div>
       <div class="chapters" aria-label="Demo chapters"><button data-time="0">00:00 <span>The question</span></button><button data-time="8">00:08 <span>Before</span></button><button data-time="31">00:31 <span>Generate</span></button><button data-time="54">00:54 <span>Verify</span></button><button data-time="95">01:35 <span>Improve</span></button><button data-time="105">01:45 <span>After</span></button></div>
     </div></section>
@@ -76,7 +92,7 @@
     </section>
 
     <section class="experiments section-wrap" id="experiments">
-      <div class="section-heading"><div><p class="eyebrow">02 / IN ACTION</p><h2>From imagined experience<br> to better execution.</h2></div><p>Explore recorded policy executions<br> before and after self-evolution.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">03 / IN ACTION</p><h2>From imagined experience<br> to better execution.</h2></div><p>Explore recorded policy executions<br> before and after self-evolution.</p></div>
       <div class="case-nav">
         <div class="environment-tabs" role="group" aria-label="Environment"><button type="button" data-group="real" aria-pressed="true">Real world <span>03</span></button><button type="button" data-group="sim" aria-pressed="false">Simulation <span>03</span></button></div>
         <div class="task-tabs" role="group" aria-label="Choose a task" id="task-tabs"></div>
@@ -92,7 +108,7 @@
     </section>
 
     <section class="method section-wrap" id="method">
-      <div class="section-heading"><div><p class="eyebrow">03 / THE METHOD</p><h2>Better experience.<br> One round at a time.</h2></div><p>Three steps connect imagined futures<br> to the next policy.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">04 / THE METHOD</p><h2>Better experience.<br> One round at a time.</h2></div><p>Three steps connect imagined futures<br> to the next policy.</p></div>
       <div class="method-steps" aria-label="Explore the method">
         <button type="button" data-step="generate" aria-controls="method-panel-generate" aria-pressed="true"><span class="step-number">01</span><strong>Imagine</strong><span>Generate video–action rollouts.</span><i><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></i></button>
         <button type="button" data-step="verify" aria-controls="method-panel-verify" aria-pressed="false"><span class="step-number">02</span><strong>Verify</strong><span>Check success &amp; consistency.</span><i><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></i></button>
@@ -168,15 +184,6 @@
 
       <details class="paper-figure"><summary>Explore the complete framework <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#plus"></use></svg></summary><img src="assets/images/method.png" loading="lazy" width="1413" height="816" alt="EVO-WAM framework: autoregressive video-action-state generation, visual goal evaluation and inverse-dynamics consistency verification, followed by supervised fine-tuning with accepted prefixes and original data."><p>Figure 2 from the paper. Verified prefixes accumulate across rounds and are mixed with original training data.</p></details>
     </section>
-
-    <section class="results" id="results"><div class="section-wrap">
-      <div class="section-heading"><div><p class="eyebrow">04 / RESULTS</p><h2>Imagination that<br> improves performance.</h2></div><p>Mean task success rate (%)<br> Initial policy → after self-evolution</p></div>
-      <div class="results-grid">
-        <article class="result"><p class="result-context">SIMULATION <span>Cosmos3</span></p><div class="result-values"><span>26.9</span><i>→</i><strong>68.0<small>%</small></strong></div><div class="bar-pair" aria-hidden="true"><div style="--value:26.9%"></div><div style="--value:68%"></div></div><p class="gain">+41.1 <span>percentage points</span></p><p>Seven unseen RoboTwin 2.0 tasks · R0 → R4</p></article>
-        <article class="result"><p class="result-context">SIMULATION <span>DreamZero</span></p><div class="result-values"><span>28.5</span><i>→</i><strong>46.4<small>%</small></strong></div><div class="bar-pair" aria-hidden="true"><div style="--value:28.5%"></div><div style="--value:46.4%"></div></div><p class="gain">+17.9 <span>percentage points</span></p><p>Seven unseen RoboTwin 2.0 tasks · R0 → R4</p></article>
-        <article class="result highlight"><p class="result-context">REAL WORLD <span>Cosmos3</span></p><div class="result-values"><span>20.0</span><i>→</i><strong>76.7<small>%</small></strong></div><div class="bar-pair" aria-hidden="true"><div style="--value:20%"></div><div style="--value:76.7%"></div></div><p class="gain">+56.7 <span>percentage points</span></p><p>Three unseen long-horizon composite tasks · R0 → R2</p></article>
-      </div><p class="result-source">Success rates across self-training rounds (Table 3). <a href="assets/paper.pdf#page=9" target="_blank" rel="noopener">Round-by-round results ↗</a> <a href="assets/paper.pdf#page=6" target="_blank" rel="noopener">Evaluation settings ↗</a></p>
-    </div></section>
 
     <section class="resources dark-section" id="resources"><div class="section-wrap">
       <div class="section-heading"><div><p class="eyebrow">05 / RESOURCES</p><h2>Explore EVO-WAM.</h2></div><a class="button primary" href="assets/paper.pdf" target="_blank" rel="noopener">Read the paper <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a></div>
