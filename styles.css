@@ -192,3 +192,6 @@
 }
 
 .citation{margin-top:32px;border-top:1px solid #ffffff30;padding-top:20px}.citation summary{cursor:pointer;font-size:16px}.citation pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;line-height:1.65;background:#ffffff08;padding:20px;border-radius:8px}.citation>a{display:inline-block;font-size:14px;margin-top:4px;text-decoration:underline}
+
+.media-credits{margin:14px 0 0;font-size:13px;color:#a9c2c6}.media-credits a{text-decoration:underline;text-underline-offset:3px}
+.chapters{flex-wrap:wrap}
