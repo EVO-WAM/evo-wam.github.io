@@ -26,7 +26,7 @@ Open http://127.0.0.1:4173/. This server supports byte ranges for video seeking.
 - `assets/images/demo-cover.svg`: overview poster composed from the same three real-robot frames, with only the title and task names. `demo-cover.html` retains an editable HTML layout reference.
 - `assets/icons.svg`: selected Lucide 1.8.0 icons; the ISC license is included in `assets/LUCIDE-LICENSE.txt`. The header uses the project name as a plain wordmark.
 
-The Code link points to https://github.com/Clausy9/EVO-WAM and is marked “To be released”. The arXiv link remains “Coming soon” until its URL is available. Author homepage links can be added once verified. Citation content is omitted until the arXiv reference is available.
+The Code link points to https://github.com/Clausy9/EVO-WAM and is marked “To be released”. The paper and arXiv links point to arXiv:2609.38057. Author homepage links can be added once verified. The Resources section includes a collapsible BibTeX citation and a downloadable `citation.bib`.
 
 Author emails appear between affiliations and contribution notes: Shiyang Zhou (`shiyangzhou@stu.hit.edu.cn`), Wenbo Li (`fenglinglwb@gmail.com`), then corresponding author Zhuotao Tian (`tianzhuotao@hit.edu.cn`). All three are clickable mailto links.
 
